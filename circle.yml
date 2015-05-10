@@ -10,4 +10,5 @@ database:
   
 test:
   override:
-    - mocha /demo
+    - cd /demo  
+    - mocha

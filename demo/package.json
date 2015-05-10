@@ -1,0 +1,30 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "express": "^4.12.3",
+    "chai": "^2.3.0",
+    "supertest": "^0.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Savic/demo.git"
+  },
+  "author": "Savic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Savic/demo/issues"
+  },
+  "homepage": "https://github.com/Savic/demo"
+}

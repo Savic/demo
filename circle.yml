@@ -5,6 +5,7 @@ general:
   
 database:
   pre:
+  	- pwd
     - ls -la
   post:
     - ls -la

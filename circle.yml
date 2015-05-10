@@ -15,5 +15,10 @@ test:
     - cd ./demo
     - pwd
     - ls -la
+    - pwd
+    - ls -la
+    - cd ./demo
+    - pwd
+    - ls -la
   override:
     - mocha

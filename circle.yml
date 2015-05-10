@@ -9,16 +9,10 @@ database:
   - psql -U ubuntu circle_test < ./create.sql
   
 test:
-  pre:
-    - pwd
-    - ls -la
-    - cd ./demo
-    - pwd
-    - ls -la
-    - pwd
-    - ls -la
-    - cd ./demo
-    - pwd
-    - ls -la
   override:
+    - pwd
+    - ls -la
+    - cd ./demo
+    - pwd
+    - ls -la
     - mocha

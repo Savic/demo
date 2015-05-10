@@ -1,0 +1,11 @@
+general:
+  build_dir: demo
+  
+checkout:
+  post:
+    - git submodule sync
+    - git submodule update --init
+
+database:
+  override:
+    - psql -u ubuntu circle_test < create.sql

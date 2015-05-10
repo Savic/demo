@@ -3,4 +3,4 @@ general:
 
 database:
   override:
-    - psql -u ubuntu circle_test < demo/create.sql
+    - psql -u ubuntu circle_test < demo/demo/create.sql

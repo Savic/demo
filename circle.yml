@@ -1,5 +1,5 @@
 general:
-  build_dir: demo/demo
+  build_dir: ./demo
 
 
   
@@ -10,4 +10,5 @@ database:
   post:
     - ls -la
   override:
-    - psql -U ubuntu circle_test < ./../create.sql
+  - pwd
+  - psql -U ubuntu circle_test < ./create.sql

@@ -12,7 +12,7 @@ test:
   pre:
     - pwd
     - ls -la
-    - cd demo
+    - cd ./demo
     - pwd
     - ls -la
   override:

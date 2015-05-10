@@ -1,6 +1,8 @@
 general:
   build_dir: demo
 
+post: ls -la
+  
 database:
   override:
     - psql -U ubuntu circle_test < ./../create.sql
